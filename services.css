@@ -1,0 +1,140 @@
+body {
+    font-family: 'Instrument Serif', serif;
+    background-color: #dddcdc;
+}
+
+nav p {
+    display: inline-flex;
+    margin: -50px;
+    padding: 0;
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: inline-flex;
+    margin-left: -3%;
+    padding: 2%;
+}
+
+nav ul li {
+    margin-top: 0%;
+    font-size: 16px;
+    margin-left: 19%;
+    padding-left: 0%;
+    display: inline;
+    padding-bottom: 2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a1a2e;
+    font-family: 'Instrument Serif', serif;
+}
+
+nav ul li:hover {
+    border: 1px none rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: #555555;
+    cursor: pointer;
+}
+
+header {
+    padding-top: 5px;
+}
+
+nav {
+    height: 95px;
+    background-color: #dddcdc;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 24px;
+    font-family: 'Instrument Serif', serif;
+    padding-top: 100px;
+    padding-left: 3%;
+
+}
+
+.paras {
+    
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    font-family: 'Instrument Serif', serif;
+    width: 75%;
+    padding-left: 2%;
+
+}
+
+.para {
+    padding-left: 3%;
+}
+
+.para2 {
+    text-align: left;
+    width: 30%;
+    margin-top: 0%;
+    padding-left: 3%;
+}
+
+.images {
+
+    display: inline-flex;
+    padding-left: 1%;
+}
+
+.img {
+    padding: 2%;
+}
+
+.B1 {
+    /* text-decoration: none; */
+    background: rgb(15, 15, 15);
+    width: 117px;
+    height: 33px;
+}
+
+.B1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.event {
+    background-color: sandybrown;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 5%;
+    margin: 0%;
+}
+
+.event h1 {
+    margin-bottom: 0%;
+}
+
+.last {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px red;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.info {
+    padding-top: 5%;
+    width: 400px;
+    /* padding-left: 5%; */
+    text-align: center;
+}
+
+@media only screen and (max-width:600px) {}
